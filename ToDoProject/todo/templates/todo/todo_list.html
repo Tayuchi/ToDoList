@@ -13,7 +13,7 @@
             <tr>
             <th scope="col">タイトル</th>
             <th scope="col">締切日</th>
-            <th scope="col"></th>
+            <th scope="col">アクション</th>
             </tr>
         </thead>
         <tbody>
@@ -22,9 +22,9 @@
             <td>{{ task.title }}</td>
             <td>{{ task.deadline }}</td>
             <td>
-                <a href="{% url 'detail' task.pk %}">詳細</a>
-                <a href="{% url 'update' task.pk %}">編集</a>
-                <a href="{% url 'delete' task.pk %}">削除</a>
+                <a href="{% url 'detail' task.pk %}" class="btn btn-secondary btn-sm">詳細</a>
+                <a href="{% url 'update' task.pk %}" class="btn btn-secondary btn-sm">編集</a>
+                <a href="{% url 'delete' task.pk %}" class="btn btn-danger btn-sm">削除</a>
             </td>
         </tr>
         {% endfor %}
