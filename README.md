@@ -21,7 +21,7 @@ myenv/scripts/activate
 ```
 pip install -r requirements.txt
 ```
-manage.pyのあるディレクトリで以下を実行
+ToDoList/ToDoProject/
 ```
 python manage.py runserver
 ```
