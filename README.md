@@ -11,14 +11,17 @@ Django ~= 4.2.5
 ```
 git clone https://github.com/Tayuchi/ToDoList.git
 ```
-
+ToDoList/
+```
+python -m venv myenv
+```
+```
+myenv/scripts/activate
+```
+```
+pip install -r requirements.txt
+```
 manage.pyのあるディレクトリで以下を実行
-```
-python manage.py makemigrations
-```
-```
-python manage.py migrate
-```
 ```
 python manage.py runserver
 ```
