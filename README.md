@@ -16,7 +16,7 @@ ToDoList/
 python -m venv myenv
 ```
 ```
-myenv/scripts/activate
+myenv\scripts\activate
 ```
 ```
 pip install -r requirements.txt
